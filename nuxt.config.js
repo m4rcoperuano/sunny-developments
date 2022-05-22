@@ -2,9 +2,13 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  router: {
+    base: '/sunny-development/'
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'sunny-development-site',
+    title: "Marco's Sunny Development",
     htmlAttrs: {
       lang: 'en'
     },
