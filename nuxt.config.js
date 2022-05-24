@@ -50,13 +50,13 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+
   },
 
   fontawesome: {
     icons: {
-      regular: true,
-      solid: true,
-      brands: true
+      solid: ['faSun'],
+      brands: ['faGithub', 'faLinkedin']
     },
     proIcons: false
   }
