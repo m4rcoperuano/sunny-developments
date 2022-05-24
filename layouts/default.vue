@@ -8,7 +8,7 @@
         </span>
         <a href="#updates-soon" class="no-underline text-right">
           <p>
-          Updates
+          Blog
           </p>
           <p class=" text-yellow-900 text-xs">
             (coming soon!)
