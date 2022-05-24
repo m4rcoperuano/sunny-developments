@@ -3,9 +3,9 @@
     <div class="max-w-4xl mx-auto flex items-center gap-2">
       <font-awesome-icon icon="sun" class="text-yellow-500 text-2xl animate-spin-slow"/>
       <span class="flex-grow text-xl font-semibold text-yellow-500">
-          Sunny Developments
+          Sunny Development
       </span>
-      <a href="#updates-soon" class="no-underline text-right">
+      <a href="#blog-soon" class="no-underline text-right">
         <p>
           Blog
         </p>
