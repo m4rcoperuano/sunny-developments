@@ -21,7 +21,7 @@
         </template>
         <template v-slot:description>
           Always thankful for the fortune of having a great supporting family :). From my fiancé Angela (<a href="https://nerdy-creations.com" target="_blank">amazing creator by the way</a>),
-          to my cat children Sunny, Milo, and Papaya. Making sure they're happy comes above all else ❤️.
+          to my cat children Sunny, Milo, and Pawpaya. Making sure they're happy comes above all else ❤️.
         </template>
       </detail-card>
 
