@@ -1,10 +1,9 @@
 name: cd
 
 on:
-  workflow_run:
-    workflows: ["ci"]
-    types:
-      - completed
+  push:
+    branches:
+      - main
 
 jobs:
   cd:
@@ -13,7 +12,6 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [16]
 
     steps:
       - name: Checkout
