@@ -14,7 +14,7 @@
       </a>
     </div>
 
-    <div class="text-center text-sm text-gray-600 opacity-50">
+    <div class="text-center text-sm text-gray-600 opacity-50 dark:text-gray-200">
       <p class="font-bold">How I Built This</p>
       <p>Hosted on Github Pages, Nuxt 3, TailwindCSS, and Fontawesome</p>
     </div>

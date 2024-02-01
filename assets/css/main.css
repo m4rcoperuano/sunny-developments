@@ -1,11 +1,4 @@
-body {
-    @apply bg-green-50;
-}
-
-a {
-    @apply text-green-600 underline transition-all;
-}
-
-a:hover {
-    @apply opacity-50;
+body, html {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+    @apply bg-gray-100 dark:bg-black;
 }
