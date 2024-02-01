@@ -1,7 +1,26 @@
 <script setup lang="ts">
+//  <meta property="og:title" content="Your Content Title Here" />
 
 useHead({
-  title: 'Home'
+  title: 'Home',
+  meta: [
+    {
+      property: 'og:title',
+      content: 'Bill Panda'
+    },
+    {
+      property: 'og:description',
+      content: 'Effortlessly manage your recurring bills on iOS and (coming soon) MacOS!'
+    },
+    {
+      property: 'og:image',
+      content: 'https://sunny-development.com/img/app_screenshots/upcoming_bills_dark.png'
+    },
+    {
+      property: 'og:site_name',
+      content: 'Bill Panda'
+    }
+  ]
 })
 
 </script>
