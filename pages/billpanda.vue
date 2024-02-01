@@ -124,17 +124,17 @@ useHead({
           <template #content>
             <p class="mb-3">
               Hello! I'm <a href="/" class="link dark:text-teal-300 text-teal-600">Marco</a> from Sunny Orlando Devs. I built Bill Panda to help keep track of my recurring bills and to learn about Apple's developer ecosystem. It's been both a passion project and a learning opportunity and now its finally at 1.0 🎉. Why not just use another bill tracker already in the app store? Well, two reasons:
-              <div class="pt-2 flex gap-3 flex-col pl-4">
-                <div class="mr-3">
-                  First, I was tired of connecting my bank accounts to some third party service that may or may not sell my information. I just needed something simpler, and other solutions I found were built decades ago with user-interfaces from another era.
-                </div>
-                <div>
-                  Second, coding for iOS is fun, like <span class="italic">really</span> fun, and this was a great way to explore more of the ins-and-outs of Apple's Developer ecosystem.
-                </div>
-              </div>
             </p>
+            <ul class="pt-2 flex gap-3 flex-col pl-4 list-disc mb-4">
+                <li class="mr-3">
+                  First, I was tired of connecting my bank accounts to some third party service that may or may not sell my information. I just needed something simpler, and other solutions I found were built decades ago with user-interfaces from another era.
+                </li>
+                <li>
+                  Second, coding for iOS is fun, like <span class="italic">really</span> fun, and this was a great way to explore more of the ins-and-outs of Apple's Developer ecosystem.
+                </li>
+              </ul>
             <p class="mb-3">
-              <strong>Whats next?</strong> There's plenty of features I have in mind for the future. The hardest part, interestingly enough, was just getting the website, app store listing, and other business details out of the way 😅. Now that its done, I hope whoever uses the app can find it useful 😊. If not, that's okay too. Any questions, please reach out to <a href="mailto:support@billpanda.app">support@billpanda.app</a>, I'll get back to you as soon as possible.
+              <strong>Whats next?</strong> There's plenty of features I have in mind for the future. The hardest part, interestingly enough, was just getting the website, app store listing, and other business details out of the way 😅. Now that its done, I hope whoever uses the app can find it useful 😊. If not, that's okay too. Any questions, please reach out to <a class="text-teal-700 dark:text-teal-500" href="mailto:support@billpanda.app">support@billpanda.app</a>, I'll get back to you as soon as possible.
             </p>
           </template>
         </MarketingSection>
