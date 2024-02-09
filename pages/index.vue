@@ -5,64 +5,72 @@ const startDate = new Date(2010, 0, 1);
 <template>
   <div class="max-w-4xl px-6 mx-auto">
     <div class="flex flex-col py-10 gap-4">
-      <div class="text-6xl">
-        Hello. 👋
+      <div class="text-3xl font-bold tracking-tight text-zinc-800 sm:text-4xl dark:text-zinc-100">
+        Building for the Web & Mobile
       </div>
-      <div class="text-4xl font-thin">
-        My name is <strong>Marco</strong> and here are all the things that describe who I am, and what I love to do.
+      <div class="text-lg">
+        Hello! I'm Marco and I love building software. I started about 14 years ago developing simple websites for
+        friends and family.
+        Overtime, I transitioned to building web and mobile applications for startups and enterprises. I've been
+        fortunate to work with
+        amazing people and companies, and I'm always looking for new opportunities to learn and grow.
       </div>
     </div>
 
-    <div class="gap-8 flex flex-col pb-12">
-      <detail-card>
-        <template v-slot:title>
-          <div>
-            Family First
+    <div class="flex flex-col gap-4">
+      <div class="text-2xl font-bold tracking-tight text-zinc-800 sm:text-3xl dark:text-zinc-100">
+        Projects
+      </div>
+      <div>
+        <div class="gap-8 flex flex-col pb-12">
+          <div class="flex gap-4">
+            <detail-card class="flex-1">
+              <template v-slot:title>
+                <div>
+                  Leasecake
+                </div>
+              </template>
+              <template v-slot:description>
+                Leasecake is a lease management platform for commercial real estate. I was the first engineer on the team
+                and
+                helped build the initial product. I worked on the web application, mobile application, and backend
+                services.
+              </template>
+            </detail-card>
+            <detail-card  class="flex-1">
+              <template v-slot:title>
+                Bill Panda
+              </template>
+              <template v-slot:description>
+                Bill Panda is a personal finance application that helps users track their expenses and income. I built
+                the
+                web application and backend services.
+              </template>
+            </detail-card>
           </div>
-          <div>
-            👩🏻‍💼👨🏽‍💼😻😸😼🏡
+          <div class="flex gap-4">
+            <detail-card>
+              <template v-slot:title>
+                Nerdy Creations
+              </template>
+              <template v-slot:description>
+                Nerdy Creations is a web development agency that I started. I worked with clients to build web and mobile
+                applications.
+              </template>
+            </detail-card>
+            <detail-card>
+              <template v-slot:title>
+                Another!
+              </template>
+              <template v-slot:description>
+                Nerdy Creations is a web development agency that I started. I worked with clients to build web and mobile
+                applications.
+              </template>
+            </detail-card>
           </div>
-        </template>
-        <template v-slot:description>
-          Always thankful for the fortune of having a great supporting family :). From my fiancé Angela (<a
-          href="https://nerdy-creations.com" target="_blank">amazing creator by the way</a>),
-          to my cat children Sunny, Milo, and Pawpaya. Making sure they're happy comes above all else ❤️.
-        </template>
-      </detail-card>
 
-      <detail-card>
-        <template v-slot:title>
-          <span>
-            The Craft
-          </span>
-          <div>
-            👨🏽‍💻
-          </div>
-        </template>
-        <template v-slot:description>
-          I started about {{ (new Date()).getFullYear() - startDate.getFullYear() }} years ago coding my way from
-          simple HTML, CSS, and Javascript, to C#, PHP, and Native App Development.
-          Today, my coding life is consumed with Laravel, Vue, React Native, and general curiosity about Web3.
-        </template>
-      </detail-card>
-
-      <detail-card>
-        <template v-slot:title>
-          <span>
-            Health & Travel
-          </span>
-          <div>
-            🧗🏽 ‍🛬 🇨🇴 🇵🇪 🇮🇪 🇺🇸 🇨🇷 🇬🇧 🏴󠁧󠁢󠁳󠁣󠁴󠁿
-          </div>
-        </template>
-        <template v-slot:description>
-          My fiancé and I both love rock climbing and traveling. We would probably do it more often if we weren't
-          always worried
-          about our kitties back home 😬. I also love to work from new places - whether that's coffee shops,
-          coworking spaces, outdoors,
-          or anywhere in our house.
-        </template>
-      </detail-card>
+        </div>
+      </div>
     </div>
   </div>
 </template>

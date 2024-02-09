@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-white dark:bg-gray-800 p-4 shadow-lg rounded-xl">
-    <div class="text-2xl font-semibold flex items-center gap-2">
+  <div class="rounded">
+    <div class="text-lg text-zinc-300 font-semibold flex items-center gap-2">
       <slot name="title"></slot>
     </div>
     <div>
